@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>STM32U585-JLINK-RTT</name>
+	<name>Tracealyzer-STM32U5-FreeRTOS-JLinkRTT</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -20,16 +20,15 @@
 	</buildSpec>
 	<natures>
 		<nature>com.st.stm32cube.ide.mcu.MCUProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUCubeProjectNature</nature>
 		<nature>org.eclipse.cdt.core.cnature</nature>
 		<nature>com.st.stm32cube.ide.mcu.MCUCubeIdeServicesRevAev2ProjectNature</nature>
-		<nature>com.st.stm32cube.ide.mcu.MCUNonUnderRootProjectNature</nature>
-		<nature>com.st.stm32cube.ide.mcu.MCUCubeExampleProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUAdvancedStructureProjectNature</nature>
 		<nature>com.st.stm32cube.ide.mcu.MCUEndUserDisabledTrustZoneProjectNature</nature>
 		<nature>com.st.stm32cube.ide.mcu.MCUNonSecureProjectNature</nature>
 		<nature>com.st.stm32cube.ide.mcu.MCUSingleCpuProjectNature</nature>
 		<nature>com.st.stm32cube.ide.mcu.MCURootProjectNature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
-		<nature>com.st.stm32cube.ide.mcu.MCUCubeImportedExampleProjectNature</nature>
 	</natures>
 </projectDescription>
